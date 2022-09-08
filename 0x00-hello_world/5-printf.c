@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * input main
+ * main - Entry point
  *
- * exit main
+ * Return: Always 0 (success)
  */
 int main(void)
 {  
 	printf("with proper grammer, but the outcome is a piece of art,\n");
-		return(0);
+
+        return (0);
 }		
