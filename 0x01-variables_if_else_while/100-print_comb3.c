@@ -36,7 +36,7 @@ int main(void)
 			else
 			{
 				i++;
-				j = 1 + 1;
+				j = 1 + i;
 			}
 		}
 	}
