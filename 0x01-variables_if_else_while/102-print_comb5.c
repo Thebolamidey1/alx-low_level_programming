@@ -52,7 +52,7 @@ int main(void)
 					k = ++i;
 				}
 			}
-			else if (l < 57)
+				else if (l < 57)
 			{
 				l++;
 			}
