@@ -19,9 +19,9 @@ int main(void)
 	k = 50;
 	while ((i < 56) && (j < 57) && (k < 58))
 	{
-		putcher(i);
-		putcher(j);
-		putcher(k);
+		putchar(i);
+		putchar(j);
+		putchar(k);
 		if ((i == 55) && (j == 56) && (k == 57))
 		{
 			putchar('\n');
