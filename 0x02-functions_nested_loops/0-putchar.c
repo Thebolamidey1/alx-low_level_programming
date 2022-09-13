@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	char *main = "_putchar";
+	char main = "_putchar";
 
-	while (*main)
+	while (main)
 	{
-		_putchar(*main);
+		_putchar(main);
 		main++;
 	}
 	_putchar("\n");
