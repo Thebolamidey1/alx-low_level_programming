@@ -1,18 +1,19 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
  * print_numbers - print 0 to 9
  *
+ * Return: returns nothing
  */
 
 void print_numbers(void)
 {
-	int prt = 0;
+	int n;
 
-	while (prt < 10)
+	for (n = 48; n < 58; n++)
 	{
-		putchar(0 + prt);
-		prt++;
+		putchar(n);
 	}
-	putchar('\n');
+	putchar(10);
 }
