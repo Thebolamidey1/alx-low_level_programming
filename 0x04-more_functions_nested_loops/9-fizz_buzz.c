@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * main - FizzBuzz
  *
@@ -20,13 +21,12 @@ int main(void)
 		else if (i % 3 == 0)
 			printf("Fizz");
 		else if (i % 5 == 0)
-			ptintf("Buzz");
+			printf("Buzz");
 		else
 			printf("%i", i);
 		if (i < 100)
 			printf(" ");
 	}
 	printf("\n");
-
 	return (0);
 }
