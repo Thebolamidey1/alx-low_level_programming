@@ -6,15 +6,15 @@
  * _strlen - the string length
  * @s: string length to print
  *
- * Return: always 0
+ * Return: return length of s
  */
 int _strlen(char *s)
 {
-	int len;
+	int i;
 
-	len = strlen(s);
+	i = strlen(s);
 
-	printf("%d", len);
+	printf("%d, i");
 
-	return (0);
+	return (i);
 }
