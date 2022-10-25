@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 #include "lists.h"
 /**
  * sum_listint - calculates the sum of all the data (n) of a linked list
